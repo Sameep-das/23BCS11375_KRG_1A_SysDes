@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Page-1" id="LZjD8GRLYxQnAZsXKNW5">
-    <mxGraphModel dx="2053" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2316" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,17 +323,16 @@
         <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-88" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment Gateway" vertex="1">
           <mxGeometry height="30" width="120" x="41.80000000000001" y="3010" as="geometry" />
         </mxCell>
-        <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-89" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance_2;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
-          <mxGeometry height="63" width="60" x="364.87" y="2720" as="geometry" />
-        </mxCell>
         <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-90" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Ticket DB" vertex="1">
           <mxGeometry height="30" width="80" x="354.87" y="2783" as="geometry" />
         </mxCell>
         <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-91" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Book TicketDB" vertex="1">
           <mxGeometry height="30" width="100" x="374.87" y="2493" as="geometry" />
         </mxCell>
-        <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-92" edge="1" parent="1" source="6K5iTRE-kS2ZPqZ-jHbK-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="6K5iTRE-kS2ZPqZ-jHbK-89">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-92" edge="1" parent="1" source="6K5iTRE-kS2ZPqZ-jHbK-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367.86999999999944" y="2723.1499999999996" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-93" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
           <mxGeometry height="64.5" width="60" x="362.94" y="2992.75" as="geometry" />
@@ -579,12 +578,12 @@
         <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-159" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Distributed&amp;nbsp;&lt;br&gt;event streaming&lt;br&gt;platform" vertex="1">
           <mxGeometry height="60" width="110" x="340.51" y="2917" as="geometry" />
         </mxCell>
-        <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-160" edge="1" parent="1" source="6K5iTRE-kS2ZPqZ-jHbK-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="6K5iTRE-kS2ZPqZ-jHbK-89">
+        <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-160" edge="1" parent="1" source="6K5iTRE-kS2ZPqZ-jHbK-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="470.51" y="2772" />
             </Array>
-            <mxPoint x="428.51" y="2742" as="targetPoint" />
+            <mxPoint x="424.8699999999999" y="2772" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6K5iTRE-kS2ZPqZ-jHbK-161" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" value="Order&lt;br&gt;Consumer" vertex="1">
@@ -625,6 +624,15 @@
         </mxCell>
         <mxCell id="Wrdrbase_TYXCxj56Odh-10" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="1" vertex="1">
           <mxGeometry height="30" width="30" x="266.5" y="2892" as="geometry" />
+        </mxCell>
+        <mxCell id="Wrdrbase_TYXCxj56Odh-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TTL - 2 mins" vertex="1">
+          <mxGeometry height="30" width="60" x="-110" y="2740" as="geometry" />
+        </mxCell>
+        <mxCell id="Wrdrbase_TYXCxj56Odh-15" edge="1" parent="1" source="Wrdrbase_TYXCxj56Odh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.167;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;" target="6K5iTRE-kS2ZPqZ-jHbK-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wrdrbase_TYXCxj56Odh-17" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.postgre_sql_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="63" width="60" x="354.87" y="2720" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
